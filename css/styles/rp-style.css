@@ -1,0 +1,273 @@
+.rp-section-heading {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 3.8rem;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+.rp-section-lead {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+.rp-panel-title {
+  text-align: left;
+  font-size: 2.4rem;
+  font-family: "Roboto Slab", serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+form {
+  margin-top: 2rem;
+}
+form .rp-input-panel .rp-input label {
+  display: block;
+  color: rgba(28, 28, 30, 0.5);
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin: 0.75rem;
+}
+form .rp-input-panel .rp-input textarea {
+  resize: none;
+}
+form .rp-input-panel .rp-input input,
+form .rp-input-panel .rp-input textarea {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(28, 28, 30, 0.75);
+  border-bottom: 1px solid rgba(28, 28, 30, 0.2);
+  display: inline;
+  width: 90%;
+  margin: 1rem;
+}
+form .rp-input-panel .rp-input button {
+  padding-left: 20px;
+  color: #fc612a;
+  background: #fff;
+  border: none;
+  font-size: 2rem;
+  word-spacing: 0.5rem;
+}
+form .rp-input-panel .rp-input button i {
+  font-size: 2.2rem;
+  -webkit-transform: rotate(-40deg, 0deg);
+  transform: rotate(-40deg, 0deg);
+}
+.rp-sm-icons {
+  margin: 0 auto;
+  position: absolute;
+  z-index: -1;
+}
+.rp-sm-icons .rp-sm-list {
+  list-style: none;
+}
+.rp-sm-icons .rp-sm-list li {
+  color: #ffffff;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 10px;
+}
+.rp-sm-icons .rp-sm-list li a {
+  color: #fff;
+}
+.rp-sm-icons .rp-sm-list li a i {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  border-radius: 100%;
+}
+.rp-sm-icons .rp-sm-list li a :active {
+  text-decoration: none;
+}
+.rp-sm-icons .rp-sm-list li a :link {
+  text-decoration: none;
+}
+.rp-sm-icons .rp-sm-list li a :hover {
+  color: rgba(241, 149, 26, 0.9);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#ff6f91),
+    color-stop(#ff78a7),
+    color-stop(#ff82bc),
+    color-stop(#ff8dd1),
+    color-stop(#ff99e5),
+    color-stop(#ff9ee7),
+    color-stop(#ffa2e9),
+    color-stop(#ffa7eb),
+    color-stop(#ffa6dd),
+    color-stop(#ffa7d1),
+    color-stop(#ffa8c6),
+    to(#ffaabc)
+  );
+  background-image: linear-gradient(
+    to right bottom,
+    #ff6f91,
+    #ff78a7,
+    #ff82bc,
+    #ff8dd1,
+    #ff99e5,
+    #ff9ee7,
+    #ffa2e9,
+    #ffa7eb,
+    #ffa6dd,
+    #ffa7d1,
+    #ffa8c6,
+    #ffaabc
+  );
+}
+.rp-volunteers .rp-volunteer-data .rp-v-img {
+  position: relative;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.rp-volunteers .rp-volunteer-data .rp-v-img img {
+  border-radius: 12px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.rp-volunteers .rp-volunteer-data .rp-v-img .rp-volunteer-overlay {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.rp-volunteers .rp-volunteer-data .rp-v-img:hover .rp-volunteer-overlay {
+  border-radius: 12px;
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#f1951a),
+    to(#fc612a)
+  );
+  background: linear-gradient(to left, #f1951a 0%, #fc612a 100%);
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: backgrond 0.5s ease-in-out;
+  transition: backgrond 0.5s ease-in-out;
+}
+.rp-volunteers
+  .rp-volunteer-data
+  .rp-v-img:hover
+  .rp-volunteer-overlay
+  .rp-sm-icons {
+  position: absolute;
+  margin-top: 70%;
+  z-index: 1;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+.rp-volunteers .rp-volunteer-data .rp-volunteer-name {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+}
+.rp-volunteers .rp-volunteer-data .rp-volunteer-desig {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+#rp-contact .rp-get-in-touch {
+  margin-bottom: 10rem;
+}
+#rp-contact .rp-get-in-touch .rp-contact-panel {
+  padding: 2rem 4rem;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 7rem;
+  border-radius: 0.09rem;
+  -webkit-box-shadow: -7px 45px 74px -31px rgba(0, 0, 0, 0.3);
+  box-shadow: -7px 45px 74px -31px rgba(0, 0, 0, 0.3);
+}
+#rp-contact .rp-get-in-touch .rp-contact-panel .rp-contact-info {
+  background-image: -webkit-gradient(
+    linear,
+    right bottom,
+    left top,
+    from(#f1951a),
+    color-stop(#f49629),
+    color-stop(#f79835),
+    color-stop(#fa9940),
+    color-stop(#fc9b4a),
+    color-stop(#fd9d53),
+    color-stop(#fe9f5c),
+    color-stop(#ffa165),
+    color-stop(#ffa36f),
+    color-stop(#ffa678),
+    color-stop(#ffa981),
+    to(#ffac8a)
+  );
+  background-image: linear-gradient(
+    to left top,
+    #f1951a,
+    #f49629,
+    #f79835,
+    #fa9940,
+    #fc9b4a,
+    #fd9d53,
+    #fe9f5c,
+    #ffa165,
+    #ffa36f,
+    #ffa678,
+    #ffa981,
+    #ffac8a
+  );
+  height: 100%;
+  width: 120%;
+  padding: 30px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+#rp-contact .rp-get-in-touch .rp-contact-panel .rp-contact-info td .fa {
+  font-size: larger;
+  display: inline-block;
+  padding: 2rem 2rem 2rem 0;
+}
+#rp-contact .rp-get-in-touch .rp-contact-panel .rp-contact-info td a {
+  color: #fff;
+  text-decoration: none;
+}
+#rp-contact .rp-get-in-touch .rp-contact-panel .rp-contact-info td a :active,
+#rp-contact .rp-get-in-touch .rp-contact-panel .rp-contact-info td a :link,
+#rp-contact .rp-get-in-touch .rp-contact-panel .rp-contact-info td a :hover {
+  color: #fff;
+  text-decoration: none;
+}
+#rp-contact
+  .rp-get-in-touch
+  .rp-contact-panel
+  .rp-contact-info
+  .rp-section-heading {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+#rp-contact .rp-find-us .map {
+  margin-top: 8rem;
+  width: 70%;
+}
+#rp-gallery .rp-photo-gallery {
+  border-radius: 10px;
+  margin: 0 auto;
+}
+#rp-gallery .gallery-image {
+  margin: 0.6rem 0;
+}
+/*# sourceMappingURL=main.min.css.map */

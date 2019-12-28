@@ -1,0 +1,399 @@
+/**
+ * style.css
+ * Contains CSS for basic static website named "White Graphics"
+ */
+
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Raleway & Montserrat
+    ----------------------------------------
+    Colors:
+        ORANGE-GRADIENT
+252, 97, 42
+241, 149, 26
+NAV_BLACK
+28, 28, 30
+GREEN-GRADIENT
+28, 179, 126
+28, 149, 131
+RED-GRADIENT
+168, 39, 47
+184, 91, 123
+   
+============================================ */
+
+/******************************************************************
+                        GENERAL SECTION
+******************************************************************/
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  /*    color: #212226 !important;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+section {
+  background: #fff;
+}
+.py40 {
+  padding: 40px 0;
+}
+.py10 {
+  padding: 10px 0;
+}
+.mr10 {
+  margin-right: 10px;
+}
+
+/******************************************************************
+                        PRELOADER
+******************************************************************/
+
+/******************************************************************
+                        HELPER SECTION
+******************************************************************/
+
+.text-dark-gray {
+  color: #343434;
+}
+.text-light-gray {
+  color: #999;
+}
+.text-light-orange {
+  color: #f1951a;
+}
+.text-dark-orange {
+  color: #fc612a;
+}
+.box-1 {
+  padding: 70px 20px;
+  margin: 30px 0;
+  /*    opacity: 0.7;*/
+  background-image: url("../../img/ngo/Capture3.PNG");
+  position: relative;
+  /*    overflow: hidden;*/
+}
+.box-1 h4 {
+  position: absolute;
+  bottom: 20px;
+}
+.box-2 {
+  padding: 40px 20px;
+  margin: 0;
+  position: relative;
+  background-image: url("../../img/ngo/Capture2.PNG");
+}
+.no-gutter {
+  padding: 0;
+  margin: 0;
+}
+
+.content-box {
+  padding: 30px 0;
+  margin: 0;
+  text-align: center;
+}
+.content-title {
+  /*    width: 900px;*/
+  height: 90px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.content-title h3 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+}
+.icon-orange {
+  color: #fc612a;
+  background: none;
+  opacity: 0.3;
+}
+p,
+a {
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  padding: 0;
+}
+
+.card-body:hover {
+  background-color: #fff;
+}
+.bg-gray {
+  background-color: #f9f9f9;
+}
+.card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+/******************************************************************
+                        OWL CAROUSEL SETTINGS
+******************************************************************/
+
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #212229;
+  font-size: 2.5rem;
+  background: none;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  /*    background-image: linear-gradient(to right,#f1951a 0%,#fc612a 100%);*/
+  color: #f1951a;
+  background: none;
+}
+.owl-carousel .owl-stage-outer {
+  padding: 10px 0;
+}
+/******************************************************************
+                        CONTENT BOXES
+******************************************************************/
+
+/******************************************************************
+                        progress bar
+******************************************************************/
+
+.progress {
+  height: 5px;
+  border-radius: 0.45rem;
+  margin: 10px 0;
+}
+#cards-3 {
+  margin-top: -60px;
+}
+/******************************************************************
+                        BUTTONS SECTION
+******************************************************************/
+
+.btn-general {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 10px 0;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 5px 30px;
+  transition: all 0.4s;
+  display: inline-block;
+}
+
+.card {
+  margin: 0 auto;
+  min-width: 300px;
+}
+
+.gradient-orange {
+  background-size: 100%;
+  background-image: linear-gradient(to right, #f1951a 0%, #fc612a 100%);
+}
+.gradient-green {
+  background-size: 100%;
+  background-image: linear-gradient(to right, #1c9583 0%, #1cb37e 100%);
+}
+.gradient-red {
+  background-size: 100%;
+  background-image: linear-gradient(to right, #b85b7b 0%, #a8272f 100%);
+}
+.btn-gray {
+  background-color: #eee;
+}
+.join-outer a {
+  border: 1px solid #343434;
+}
+.date-border {
+  border-right: 1px solid #ddd;
+  font-size: 24px;
+  font-weight: 700;
+}
+.icon-orange-end:hover {
+  color: #f1951a;
+}
+/******************************************************************
+                        donation
+******************************************************************/
+.donation-outer {
+  background-image: url("../../img/ngo/slide-1.jpg");
+  min-width: 100%;
+  min-height: 400px;
+  position: relative;
+  z-index: 0;
+}
+
+.share-outer {
+  background-image: url("../../img/ngo/figure.jpeg");
+  min-width: 100%;
+  min-height: 400px;
+  position: relative;
+  z-index: 0;
+  /*    opacity: 0.3;*/
+}
+.hero-outer {
+  background-image: url("../../img/ngo/hero-3.jpg");
+  width: 100%;
+  height: 600px;
+  position: relative;
+  z-index: 0;
+  /*    opacity: 0.3;*/
+}
+
+.donation-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.orange-overlay {
+  position: absolute;
+  background-image: linear-gradient(to right, #f1951a 0%, #fc612a 100%);
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*    z-index: -1;*/
+}
+.green-overlay {
+  position: absolute;
+  opacity: 0.7;
+  background-image: linear-gradient(to right, #1c9583 0%, #1cb37e 100%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*    z-index: -1;*/
+}
+.red-overlay {
+  position: absolute;
+  opacity: 0.7;
+  background-image: linear-gradient(to right, #b85b7b 0%, #a8272f 100%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*    z-index: -1;*/
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.option-card {
+  padding: 40px 10px;
+  background-color: #fff;
+  position: relative;
+}
+.option-card .bg-number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #eee;
+  font-weight: 900;
+  font-size: 70px;
+}
+.option-card .option-card-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+}
+.option-card:hover {
+  background-image: linear-gradient(to right, #1c9583 0%, #1cb37e 100%);
+}
+input[type="number"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  display: inline;
+  width: 400px;
+  /*    height: 10px;*/
+}
+.input-field {
+  margin: 10px auto;
+  border: 1px solid #fff;
+  border-radius: 60px;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 20px auto;
+}
+
+.join-outer {
+  padding: 70px 0;
+}
+.counter {
+  font-size: 30px;
+  font-weight: 700;
+}
+/******************************************************************
+                        HOME SECTION
+******************************************************************/
+
+.slide-outer {
+  max-height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+.slide-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/******************************************************************
+                        ABOUT SECTION
+******************************************************************/
+.hero-outer-about {
+  background: url("../../img/images/landing/landing.jpg") no-repeat center
+    center;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  z-index: 0;
+  /*    opacity: 0.3;*/
+}
+
+.share-outer-flower {
+  background-image: url("../../img/ngo/flower3.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  z-index: 0;
+  /*    opacity: 0.3;*/
+}
