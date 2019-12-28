@@ -270,4 +270,32 @@ form .rp-input-panel .rp-input button i {
 #rp-gallery .gallery-image {
   margin: 0.6rem 0;
 }
+#rp-about-us2 .content {
+  background: #f2f2f2;
+  padding: 5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+#rp-about-us2 .content .rp-vid {
+  text-align: center;
+  position: relative;
+}
+#rp-about-us2 .content .rp-vid video {
+  width: 60%;
+  display: inline;
+  margin-bottom: 8rem;
+  margin-top: 4rem;
+}
+#rp-about-us2 .content .rp-content-data .content-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+}
+#rp-about-us2 .content .rp-content-data .rp-content-body p {
+  font-size: 1.3rem;
+}
+#rp-about-us2 .content img {
+  width: 85%;
+  color: #000;
+  margin-top: -20px;
+}
 /*# sourceMappingURL=main.min.css.map */
